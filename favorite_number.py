@@ -1,7 +1,7 @@
 import json
 def save_number():
     '''Save the user favorite number into a json file.'''
-    number = int(input('\nType your favorite number and a will save it for you: '))
+    number = int(input('Type your favorite number and a will save it for you: '))
     with open('favorite_number.json', 'w') as file_object:
         json.dump(number, file_object)
     return number
