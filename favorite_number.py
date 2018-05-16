@@ -17,7 +17,7 @@ def read_number():
         return number
 
 def show_number():
-    '''If the user aldeary informed a number it will show to him/her. Otherwise the function save_number will be called to ask the user his/her favorite number'''
+    '''If the user already informed a number it will show to him/her. Otherwise the function save_number will be called to ask the user his/her favorite number'''
     number = read_number()
     if number:
         print('\n------------------------------------------------------------')
